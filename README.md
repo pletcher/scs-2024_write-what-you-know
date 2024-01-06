@@ -1,3 +1,15 @@
+# Write What You Know (SCS 2024)
+
+This repository contains the slides for my SCS 2024 talk, presented remotely for the conference in Chicago, IL on January 6, 2024.
+
+The content of the slides is licensed under [CC BY-NC-SA 4.0](git@github.com:pletcher/scs-2024_write-what-you-know.git), meaning you can take and modify the content as you see fit, as long as you use proper attribution and don't use the content for commercial purposes.
+
+Reveal.js, the software powering the slides, is released under the MIT license and copyright [Hakim El Hattab](https://hakim.se/).
+
+The images used in these slides fall under fair use, but copyright remains with their respective holders.
+
+## About reveal.js
+
 <p align="center">
   <a href="https://revealjs.com">
   <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text-sticker.png" alt="reveal.js" width="500">
