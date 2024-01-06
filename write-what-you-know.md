@@ -649,7 +649,6 @@ Finally, we do not need to avoid commercial tools like Microsoft Word --- indeed
     <li>Bleeker, Elli, Ronald Haentjens Dekker, and Bram Buitendijk. 2021. “Texts as Hypergraphs: An Intuitive Representation of Interpretations of Text.” Journal of the Text Encoding Initiative, no. Issue 14 (March). https://doi.org/10.4000/jtei.3919.</li>
     <li>Buzzetti, Dino. 2002. “Digital Representation and the Text Model.” New Literary History 33 (1): 61–88. https://doi.org/10.1353/nlh.2002.0003.</li>
     <li>Coupette, Corinna, Jilles Vreeken, and Bastian Rieck. 2023. “All the World’s a (Hyper)Graph: A Data Drama.” Digital Scholarship in the Humanities, November, fqad071. https://doi.org/10.1093/llc/fqad071.</li>
-    <li>“Ecma Office Open XML Part 1 - Fundamentals And Markup Language Reference.” 2016. https://ecma-international.org/publications-and-standards/standards/ecma-376/.</li>
 </ul>
 
 
@@ -657,11 +656,18 @@ Finally, we do not need to avoid commercial tools like Microsoft Word --- indeed
 ## Bibliography
 
 <ul>
+    <li>“Ecma Office Open XML Part 1 - Fundamentals And Markup Language Reference.” 2016. https://ecma-international.org/publications-and-standards/standards/ecma-376/.</li>
     <li>Pose, Javier, Patrice Lopez, and Laurent Romary. 2014. “A Generic Formalism for Encoding Stand-off Annotations in TEI.” HAL.</li>
     <li>Schmidt, Desmond. 2014. “Towards an Interoperable Digital Scholarly Edition.” Journal of the Text Encoding Initiative, no. 7 (November). https://doi.org/10.4000/jtei.979.</li>
-    <li>Spadini, Elena, and Magdalena Turska. 2019. “XML-TEI Stand-off Markup: One Step Beyond.” Digital Philology: A Journal of Medieval Cultures 8 (2): 225–39. https://doi.org/10.1353/dph.2019.0025.</li>
 </ul>
 
+
+---
+## Bibliography
+
+<ul>
+    <li>Spadini, Elena, and Magdalena Turska. 2019. “XML-TEI Stand-off Markup: One Step Beyond.” Digital Philology: A Journal of Medieval Cultures 8 (2): 225–39. https://doi.org/10.1353/dph.2019.0025.</li>
+</ul>
 
 ---
 ## Additional bibliography
