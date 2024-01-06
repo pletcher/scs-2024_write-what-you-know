@@ -147,20 +147,20 @@ Why can't we just write and host TEI XML files that contain all of the markup th
 <img src="images/same-picture.png" alt="They're the same picture" />
 
 <aside class="notes">
-    I'm over-simplifying, and in actual fact the OOXML representation of a text
-    provides many of the features we're looking for because it uses multiple files
-    to handle some of the non-linear features on which commentaries depend. In this
-    regard, TEI's "one document does it all" --- which, at least with the texts
-    that I've encountered, appears to have morphed from suggestion to dogma ---
-    is an encumbrance that makes each document an idiosyncratic collection of
-    tags and attributes. The relatively small tag vocabulary of OOXML's WordprocessingML package
-    makes it fairly straightforward to reason about
-    what kinds of structures one will encounter and enables the kind of interoperability that has, for better or worse, made Word the de facto standard of the humanities.
+I'm over-simplifying, and in actual fact the OOXML representation of a text
+provides many of the features we're looking for because it uses multiple files
+to handle some of the non-linear features on which commentaries depend. In this
+regard, TEI's "one document does it all" --- which, at least with the texts
+that I've encountered, appears to have morphed from suggestion to dogma ---
+is an encumbrance that makes each document an idiosyncratic collection of
+tags and attributes. The relatively small tag vocabulary of OOXML's WordprocessingML package
+makes it fairly straightforward to reason about
+what kinds of structures one will encounter and enables the kind of interoperability that has, for better or worse, made Word the de facto standard of the humanities.
 
-    As an aside, it feels strange that I am effectively defending
-    Microsoft Word. To be clear, on a personal level, I'm deeply frustrated with the requirement to use an expensive, closed-source, and notoriously buggy program for most of my scholarly writing. I'm sure I'm not the only person in the room who has had a reader return a paper, unread, because it was "too short" thanks to LaTeX's layout algorithm, only to submit the exact same paper as a Word document and receive copious helpful comments because now it was the "proper length" --- when in reality Word just added some unnecessary page breaks and a few styles that will be a pain to catch when submitting the paper for publication.
+As an aside, it feels strange that I am effectively defending
+Microsoft Word. To be clear, on a personal level, I'm deeply frustrated with the requirement to use an expensive, closed-source, and notoriously buggy program for most of my scholarly writing. I'm sure I'm not the only person in the room who has had a reader return a paper, unread, because it was "too short" thanks to LaTeX's layout algorithm, only to submit the exact same paper as a Word document and receive copious helpful comments because now it was the "proper length" --- when in reality Word just added some unnecessary page breaks and a few styles that will be a pain to catch when submitting the paper for publication.
 
-    So in reality, I'm not a fan of Word's grip on the humanities. But when looking at OOXML as a standard --- I don't hate it.
+So in reality, I'm not a fan of Word's grip on the humanities. But when looking at OOXML as a standard --- I don't hate it.
 </aside>
 
 ---
@@ -169,7 +169,7 @@ Why can't we just write and host TEI XML files that contain all of the markup th
 <p>Commentary is an inherently non-linear form of textual representation.</p>
 
 <aside class="notes">
-    But back to what I said in passing a moment ago: Commentary is an inherently non-linear form of textual representation, and TEI XML struggles to represent non-linear structures. Some digital humanists have tried to solve this problem through various implementations of stand-off markup. Pose et al. in 2014 introduced three new elements suited to this purpose, effectively growing the already gargantuan TEI specification.
+But back to what I said in passing a moment ago: Commentary is an inherently non-linear form of textual representation, and TEI XML struggles to represent non-linear structures. Some digital humanists have tried to solve this problem through various implementations of stand-off markup. Pose et al. in 2014 introduced three new elements suited to this purpose, effectively growing the already gargantuan TEI specification.
 </aside>
 
 ---
@@ -181,9 +181,9 @@ Why can't we just write and host TEI XML files that contain all of the markup th
 </p>
 
 <aside class="notes">
-    In practice, TEI XML gets around this infamous XKCD problem by being blackhole standard that appears to consume every idea one can throw at it. Hence the rise of competing standards like EpiDoc that attempt to carve off a subset of the TEI spec for their own use.
+In practice, TEI XML gets around this infamous XKCD problem by being blackhole standard that appears to consume every idea one can throw at it. Hence the rise of competing standards like EpiDoc that attempt to carve off a subset of the TEI spec for their own use.
 
-    This situation gives rise to what Desmond Schmidt has called the "TEI Paradox," namely that 
+This situation gives rise to what Desmond Schmidt has called the "TEI Paradox," namely that 
 </aside>
 
 ---
@@ -210,13 +210,13 @@ As digital humanists, it is the meaning of the tag that matters, or at least tha
         <li>a title tag inserted by the transcriber of a physical document as an interpretation of what he/she sees (but it may not be true), and</li>
         <li>the same tag used by an author to declare that his/her digital text is in fact a title.</li>
     </ol>
-    Schmidt 2014: ¶¶ 12–13, citing Renear 2000.
+    <p>Schmidt 2014: ¶¶ 12–13, citing Renear 2000.</p>
 </div>
 
 <aside class="notes">
-    Alan Renear, quoted by Schmidt, sums up the problem as one of "mood": depending on the author's disposition, a "title" tag can represent the ultimately affective and aesthetic interpretation of a document or --- perhaps better --- the element's function within some kind of abstract document.
+Alan Renear, quoted by Schmidt, sums up the problem as one of "mood": depending on the author's disposition, a "title" tag can represent the ultimately affective and aesthetic interpretation of a document or --- perhaps better --- the element's function within some kind of abstract document.
 
-    With TEI, we often think we're doing the latter when really we're doing the former.
+With TEI, we often think we're doing the latter when really we're doing the former.
 </aside>
 
 ---
@@ -246,8 +246,8 @@ where the layers of scholia and interlinear gloss and emendation have accrued ov
 </p>
 
 <aside class="notes">
-    But XML, regardless of its specification, is built to define linear data. As Dino Buzzetti
-    has argued, "In the final analysis, strongly embedded markup causes the possibly non-linear form of the data content to collapse upon the exclusively linear form of the data expression. The linearization of the _expression_ cannot, however, bring about the linearization of the content and its structure." (73)
+But XML, regardless of its specification, is built to define linear data. As Dino Buzzetti
+has argued, "In the final analysis, strongly embedded markup causes the possibly non-linear form of the data content to collapse upon the exclusively linear form of the data expression. The linearization of the _expression_ cannot, however, bring about the linearization of the content and its structure." (73)
 </aside>
 
 ---
@@ -289,17 +289,17 @@ where the layers of scholia and interlinear gloss and emendation have accrued ov
 </script></code></pre>
 
 <aside class="notes">
-    When we have this discrepancy between the form of the text and its expression --- to borrow Buzzetti's vocabulary ---
-    we almost immediately run into problems when modifying the markup to add things like commentary glosses.
+When we have this discrepancy between the form of the text and its expression --- to borrow Buzzetti's vocabulary ---
+we almost immediately run into problems when modifying the markup to add things like commentary glosses.
 
-    We could add them manually, but then the text becomes even more cumbersome for other scholars to consume.
-    If we try to add them programmatically --- say, by using CTS URNs (more on those in a second) ---
-    we run into problems because the representation of the text does not match our structure.
+We could add them manually, but then the text becomes even more cumbersome for other scholars to consume.
+If we try to add them programmatically --- say, by using CTS URNs (more on those in a second) ---
+we run into problems because the representation of the text does not match our structure.
 
-    Textual elements on which we might want to comment can be nested at arbitrary depths within the document tree,
-    meaning that every look-up of a lemma is not a simple XPath expression but is rather an XPath expression
-    followed by a series of test cases to flatten the tree for any number of nodes and then to reassemble the
-    same tree for representing the new data with annotations at the proper lemmata.
+Textual elements on which we might want to comment can be nested at arbitrary depths within the document tree,
+meaning that every look-up of a lemma is not a simple XPath expression but is rather an XPath expression
+followed by a series of test cases to flatten the tree for any number of nodes and then to reassemble the
+same tree for representing the new data with annotations at the proper lemmata.
 </aside>
 
 ---
@@ -325,11 +325,11 @@ where the layers of scholia and interlinear gloss and emendation have accrued ov
 </script></code></pre>
 
 <aside class="notes">
-    Modifying the structure in this way comes with another caveat, namely that the glosses now depend on 
-    the order in which they are inserted, because each one changes the structure of the underlying XML.
-    Overlapping glosses --- in the case of a multi-commentary like what we're trying to build with
-    Pausanias and what I'm currently building for Sophocles' <em>Ajax</em> at UNIL --- become
-    a nightmare to deal with.
+Modifying the structure in this way comes with another caveat, namely that the glosses now depend on 
+the order in which they are inserted, because each one changes the structure of the underlying XML.
+Overlapping glosses --- in the case of a multi-commentary like what we're trying to build with
+Pausanias and what I'm currently building for Sophocles' <em>Ajax</em> at UNIL --- become
+a nightmare to deal with.
 </aside>
 
 ---
